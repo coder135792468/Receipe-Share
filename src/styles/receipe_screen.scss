@@ -1,0 +1,38 @@
+.receipe_screen {
+  height: 100vh;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  width: 100%;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h2 {
+    text-align: center;
+    color: rgb(248, 16, 16);
+    -webkit-text-stroke: black;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    -webkit-text-stroke: 1px black;
+    backdrop-filter: blur(40px);
+    .back_button {
+      background-color: rgba(245, 245, 245, 0.644);
+    }
+  }
+  .desc {
+    position: absolute;
+    height: 60vh;
+    width: 100%;
+    bottom: 0;
+    border-radius: 40px 40px 0 0;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.726);
+    p {
+      margin: 10px 30px;
+    }
+  }
+}
